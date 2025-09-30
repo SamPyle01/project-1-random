@@ -14,7 +14,7 @@ function preload() {
  
   imgs2[0] = loadImage("BaseBall.png");
   imgs2[1] = loadImage("soccer-ball.png");
-  imgs2[2] = loadImage("basketball.png");
+  imgs2[2] = loadImage("BasketBall.png");
 }
 
 function setup() {
