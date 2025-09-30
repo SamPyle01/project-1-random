@@ -1,0 +1,65 @@
+/* General page setup */
+body {
+  font-family: Arial, sans-serif;
+  background: url("chalkboard.jpeg");
+   background-position: center; /* Keeps it centered */
+  color: #eee;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Header bar */
+header {
+  padding: 50px 50px;
+  background: #373737;
+  border-bottom: 1px solid #333;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+
+.mode-hint {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+/* Main container */
+.container {
+  padding: 30px 150px;
+  display: grid;
+  gap: 50px;
+}
+
+/* Instructions panel */
+.instructions {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.instructions h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+.instructions ul {
+  padding-left: 10px;
+}
+
+.instructions li {
+  margin: 4px 0;
+}
+
+/* p5.js canvas */
+canvas {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  /*box-shadow: 0 0 5px rgba(0,0,0,0.5);*/
+  padding: 50px;
+}
